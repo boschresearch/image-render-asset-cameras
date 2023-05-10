@@ -1,0 +1,8 @@
+{
+    sDTI: "/anycam/db/sensor/2d/std:1.0",
+    sId: "${filebasename}",
+    sName: "SonyIMX252 2064x1544 - 3.45um",
+    iPixCntX: 2064,
+    iPixCntY: 1544,
+    fPixSize: 3.45
+}

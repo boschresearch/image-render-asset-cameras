@@ -1,0 +1,52 @@
+// <LICENSE id="CC BY 4.0">
+//
+//   Image-Render Asset Camera Definitions
+//   Copyright 2022 Robert Bosch GmbH and its subsidiaries
+//   
+//   This work is licensed under the 
+//   
+//       Creative Commons Attribution 4.0 International License.
+//   
+//   To view a copy of this license, visit 
+//       http://creativecommons.org/licenses/by/4.0/ 
+//   or send a letter to 
+//       Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//   
+//
+// </LICENSE>
+{
+    sDTI: "/anycam/db/project/pingen/opencv:1.0",
+    "sDTI/doc":  "The calibration parameters used are those of the opencv pinhole camera calibration model: c.f. https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga3207604e4b1a1758aa66acb6ed5aa65d",
+
+    sId: "${filebasename}",
+
+    sSensorName: "Generic 3um",
+    sLensName: "Test",
+
+    sUnit: "pixel",
+    "sUnit/doc": "the measurement unit of the calibration data. Has to be one of ['pixel', 'mm']",
+
+    lSenSizeXY: [1000, 1000],
+    "lSenSizeXY/doc": "sensor size in units determined by 'sUnit'",
+
+    lFocLenXY: [250, 250],
+    lImgCtrXY: [500.5, 500.5],
+    
+    lDistRad: [-0.5, -0.2, 0.2],
+    "lDistRad/doc": "two, three or six radial distortion coefficients. Undefined coefficients are assumed to be zero.",
+    
+    lDistTan: [],
+    "lDistTan/doc": "two tangential distortion coefficients",
+    
+    lDistPrism: [],
+    "lDistPrism/doc": "one to four prism distortion coefficients",
+    
+    lDistTilt: [],
+    "lDistTilt/doc": "two sensor tilt angles in radians",
+    
+    fVignettingNorm: 1.0,
+    "fVignettingNorm/doc": "image plane positions in the units given by 'sUnit' are divided by this value before applied to the vignetting polynomial",
+	
+    lVignetting: [0.1, 0.02, 0.3],
+    "lVignetting/doc": "vignetting polynomial"
+}

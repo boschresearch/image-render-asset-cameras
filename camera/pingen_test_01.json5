@@ -1,0 +1,31 @@
+
+// <LICENSE id="CC BY 4.0">
+//
+//   Image-Render Asset Camera Definitions
+//   Copyright 2022 Robert Bosch GmbH and its subsidiaries
+//   
+//   This work is licensed under the 
+//   
+//       Creative Commons Attribution 4.0 International License.
+//   
+//   To view a copy of this license, visit 
+//       http://creativecommons.org/licenses/by/4.0/ 
+//   or send a letter to 
+//       Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//   
+//
+// </LICENSE>
+{
+    sDTI: "/anycam/db/camera/pingen:1.1",
+    sId: "${filebasename}",
+
+    sName: "PinGen Test 1",
+    sSensorId: "sensor/r1000x1000_p3",
+    sProjectId: "pingen/test_01",
+    sInfo: "the projection refers to pinhole calibration data. The sensor pixel count given there has to agree with the pixel count of the sensor.",
+
+    fSensorScale: 1.0,
+    "fSensorScale/doc": "Sensor scale in Blender scene. Can improve numerical accuracy, but will change resultant images for close objects."
+
+}
+

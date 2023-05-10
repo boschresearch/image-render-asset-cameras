@@ -1,0 +1,140 @@
+
+// <LICENSE id="CC BY 4.0">
+//
+//   Image-Render Asset Camera Definitions
+//   Copyright 2022 Robert Bosch GmbH and its subsidiaries
+//   
+//   This work is licensed under the 
+//   
+//       Creative Commons Attribution 4.0 International License.
+//   
+//   To view a copy of this license, visit 
+//       http://creativecommons.org/licenses/by/4.0/ 
+//   or send a letter to 
+//       Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//   
+//
+// </LICENSE>
+{
+    sDTI: "/anycam/db/opticalsystem:1.0",
+    sId: "${filebasename}",
+    sName: "Std-FoV200-v01",
+    fEnvPosZ: 0.0,
+    fSenPosZ: 41.1316617,
+    fMaxSize: 0,
+    fRenderPupilDia: 6.0,
+    fRenderPupilDistZ: 15.30,
+    lOpticList: [
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L1",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 0.0,
+            lMedium: ["BK7"],
+            lfDia: [33.48650, 17.0],
+            lThickCtr: [1.3563600],
+            lfRad: [60.77471975, 9.22172400],
+            lfConic: [0.0, 0.0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L2",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 7.5350817,
+            lMedium: ["BK7"],
+            lfDia: [17.4799641, 13.5116676],
+            lThickCtr: [1.6002000],
+            lfRad: [0.0, 13.532999480],
+            lfConic: [0,0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L3",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 13.9333417,
+            lMedium: ["BK7"],
+            lfDia: [11.3785715, 10.5144081],
+            lThickCtr: [1.6002000],
+            lfRad: [-14.42059601, 0.0],
+            lfConic: [0,0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L4",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 25.3735017,
+            lMedium: ["SF3"],
+            lfDia: [5.6430456, 5.4673753],
+            lThickCtr: [0.7975600],
+            lfRad: [12.11046603, -40.32580200],
+            lfConic: [0,0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L5",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 26.2421817,
+            lMedium: ["SF3"],
+            lfDia: [4.7306394, 3.1821532],
+            lThickCtr: [1.8161000],
+            lfRad: [5.39673800, 4.96189000],
+            lfConic: [0,0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/aperture:1.0",
+            sName: "STOP",
+            lfDia: [3.1496000],
+            fThickCtr: 0.8077200,
+            fPosBotZ: 28.3453017
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L6",
+            lsSubType: ["spherical", "spherical", "spherical"],
+            iSurfCnt: 3,
+            fPosBotZ: 29.1530217,
+            lMedium: ["SF8", "LAKN7"],
+            lfDia: [3.4756485, 4.9274123, 5.3199657],
+            lThickCtr: [1.1125200, 1.6459200],
+            lfRad: [-4.66775800, 6.03249999, -6.03249999],
+            lfConic: [0,0,0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L7",
+            lsSubType: ["spherical", "spherical", "spherical"],
+            iSurfCnt: 3,
+            fPosBotZ: 31.9800417,
+            lMedium: ["LAKN7", "SF3"],
+            lfDia: [5.8536721, 5.9142119, 6.5962164],
+            lThickCtr: [1.8211800, 0.5969000],
+            lfRad: [34.82187599, -3.65734600, -12.36167198],
+            lfConic: [0,0,0],
+            lAsphPoly: [[], []]
+        },
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L8",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 34.4921017,
+            lMedium: ["LAKN7"],
+            lfDia: [7.0130983, 6.9480840],
+            lThickCtr: [1.0439400],
+            lfRad: [8.09853600, 68.25513400],
+            lfConic: [0,0],
+            lAsphPoly: [[], []]
+        }
+    ]
+}

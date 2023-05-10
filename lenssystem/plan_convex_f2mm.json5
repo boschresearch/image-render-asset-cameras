@@ -1,0 +1,42 @@
+
+// <LICENSE id="CC BY 4.0">
+//
+//   Image-Render Asset Camera Definitions
+//   Copyright 2022 Robert Bosch GmbH and its subsidiaries
+//   
+//   This work is licensed under the 
+//   
+//       Creative Commons Attribution 4.0 International License.
+//   
+//   To view a copy of this license, visit 
+//       http://creativecommons.org/licenses/by/4.0/ 
+//   or send a letter to 
+//       Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//   
+//
+// </LICENSE>
+{
+    sDTI: "/anycam/db/opticalsystem:1.0",
+    sId: "${filebasename}",
+    sName: "Plan Convex f=2mm",
+    fEnvPosZ: 0.0,
+    fSenPosZ: 2.2,
+    fMaxSize: 0,
+    fRenderPupilDia: 0.5,
+    fRenderPupilDistZ: 3.0,
+    lOpticList: [
+        {
+            sDTI: "/anycam/db/opticalsystem/lens:1.0",
+            sName: "L1",
+            lsSubType: ["spherical", "spherical"],
+            iSurfCnt: 2,
+            fPosBotZ: 0.0,
+            lMedium: ["BK7"],
+            lfDia: [1.0, 1.0],
+            lThickCtr: [1.0],
+            lfRad: [1.0, 0.0],
+            lfConic: [0.0, 0.0],
+            lAsphPoly: [[], []]
+        }    
+    ]
+}

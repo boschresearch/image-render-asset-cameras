@@ -1,0 +1,33 @@
+
+// <LICENSE id="CC BY 4.0">
+//
+//   Image-Render Asset Camera Definitions
+//   Copyright 2022 Robert Bosch GmbH and its subsidiaries
+//   
+//   This work is licensed under the 
+//   
+//       Creative Commons Attribution 4.0 International License.
+//   
+//   To view a copy of this license, visit 
+//       http://creativecommons.org/licenses/by/4.0/ 
+//   or send a letter to 
+//       Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//   
+//
+// </LICENSE>
+{
+    sDTI: "/anycam/db/project/poly/radial:1.0",
+    sId: "${filebasename}",
+	sInputType: "radius/normalized/fixed/mm",
+	sOutputType: "angle/rad",
+	lCoef: [ 0.433402, 0.0, 
+			  -0.144467, 0.0, 
+			   0.086680, 0.0, 
+			  -0.061914, 0.0, 
+			   0.048155],
+	lCenter_mm: [ 0.0, 0.0 ],
+	lVignetting: [ 0.0131, 0.00011, 0.00000],
+	fNormLength_mm: 7.1208,
+	fMaxAngle_deg: 51.0,
+}
+
