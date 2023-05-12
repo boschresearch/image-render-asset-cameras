@@ -1,6 +1,10 @@
 # Example Camera Definitions
 
+**Check out the `stable` branch for the latest stable version**
+
 This module contains example definitions of all camera types that can be created with the `anycam` Blender addon, which is implemented in the `image-render-blender-camera` module.
+
+See the repository `image-render-setup` for more information and documentation on the `image-render` automation system.
 
 ## Purpose of the project
 
