@@ -16,10 +16,10 @@
 //
 // </LICENSE>
 {
-    sDTI: "/anycam/db/project/pano/equidist:1.0",
+    sDTI: "/anycam/db/camera/pano:1.1",
     sId: "${filebasename}",
-    
-    // fFovMax_deg: 300,
-
-    lFov_deg: [120, 0]
+    sName: "Test 140deg HD",
+    sSensorId: "sensor/HDTV",
+    sProjectId: "pano/f-theta_140"
 }
+

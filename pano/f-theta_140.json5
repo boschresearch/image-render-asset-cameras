@@ -19,7 +19,7 @@
     sDTI: "/anycam/db/project/pano/equidist:1.0",
     sId: "${filebasename}",
     
-    // fFovMax_deg: 300,
+    fFovMax_deg: 170,
 
-    lFov_deg: [120, 0]
+    lFov_deg: [140, 0]
 }
